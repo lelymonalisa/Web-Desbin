@@ -1,0 +1,1 @@
+var video=document.querySelectorAll("video");$(document).ready(function(){$("#carouselExampleIndicators").on("slide.bs.carousel",function(){for(var e=0;e<video.length;e++)video[e].pause()})});

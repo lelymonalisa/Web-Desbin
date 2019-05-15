@@ -1,0 +1,523 @@
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+/* Sections Header
+--------------------------------*/
+.section-header .section-title {
+  font-size: 50px !important;
+  color: #111 !important;
+  /*  text-transform: uppercase;*/
+  text-align: center;
+  font-family: 'Satisfy', cursive !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+.section-header .section-description {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #999;
+}
+
+/* Tentang Section
+--------------------------------*/
+#tentang {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#tentang .tentang-container .background {
+  min-height: 300px;
+  background: url(../img/asset/gamelan.jpg) center right no-repeat;
+  margin-bottom: 10px;
+}
+
+#tentang .tentang-container .content {
+  background: #fff;
+}
+
+#tentang .tentang-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  #tentang .tentang-container .title {
+    padding-top: 15px;
+  }
+}
+
+#tentang .tentang-container p {
+  line-height: 26px;
+}
+
+#tentang .tentang-container h2 {
+  font-family: 'Satisfy', cursive;
+}
+
+#tentang .tentang-container p:last-child {
+  margin-bottom: 0;
+}
+
+#tentang .tentang-container .icon-box {
+  background: #fff;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+#tentang .tentang-container .icon-box .icon {
+  float: left;
+  background: #fff;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #A7E718;
+}
+
+#tentang .tentang-container .icon-box .icon i {
+  color: #A7E718;
+  font-size: 24px;
+}
+
+#tentang .tentang-container .icon-box .title {
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 25px;
+  /*  text-transform: uppercase;*/
+  font-family: 'Satisfy', cursive;
+}
+
+#tentang .tentang-container .icon-box .title a {
+  color: #111;
+}
+
+#tentang .tentang-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/* Desbin Section
+--------------------------------*/
+#desbin {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/asset/desbin.JPG) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#desbin .cta-title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Satisfy', cursive;
+}
+
+#desbin .cta-text {
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  #desbin .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#desbin .cta-btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#desbin .cta-btn:hover {
+  background: #A7E718;
+  border: 2px solid #A7E718;
+}
+
+/* Desa Section
+--------------------------------*/
+#desa {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/asset/desa.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#desa .cta-title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Satisfy', cursive;
+}
+
+.sponsor {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Satisfy', cursive;
+}
+
+#desa .cta-text {
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  #desa .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#desa .cta-btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#desa .cta-btn:hover {
+  background: #1a69b8;
+  border: 2px solid #1a69b8;
+}
+
+/* Katalog Section
+--------------------------------*/
+#katalog {
+  background: #f7f7f7;
+  padding: 80px 0;
+}
+
+#katalog h3 {
+  font-family: 'Satisfy', cursive;
+}
+
+#katalog #katalog-wrapper {
+  padding-right: 15px;
+}
+
+#katalog #katalog-flters {
+  padding: 0;
+  margin: 0 0 45px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#katalog #katalog-flters li {
+  cursor: pointer;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 10px 22px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#katalog #katalog-flters li:hover,
+#katalog #katalog-flters li.filter-active {
+  background: #A7E718;
+  color: #fff;
+}
+
+#katalog .katalog-item {
+  position: relative;
+  height: 200px;
+  overflow: hidden !important;
+  margin-bottom: 15px;
+  transition: all 350ms ease;
+  transform: scale(1);
+}
+
+#katalog .katalog-item a {
+  display: block;
+  margin-right: 15px;
+}
+
+#katalog .katalog-item img {
+  position: relative;
+  top: 0;
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#katalog .katalog-item .details {
+  height: 50px;
+  background: #A7E718;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: -50px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#katalog .katalog-item .details h4 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  padding: 8px 0 2px 8px;
+  margin: 0;
+}
+
+#katalog .katalog-item .details span {
+  display: block;
+  color: #fff;
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+#katalog .katalog-item:hover .details {
+  bottom: 0;
+}
+
+#katalog .katalog-item:hover img {
+  top: -30px;
+}
+
+#berminat {
+  border: solid 2px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 8px 30px;
+  background-color: transparent;
+  color: white;
+}
+
+#berminatText {
+  font-family: 'Satisfy', cursive !important;
+  font-size: 50px;
+}
+
+#berminat:hover {
+  background-color: rgb(26, 105, 184);
+  transition: 0.5s;
+}
+
+#berminatCover p {
+  /* font-size: 30px; */
+  color: white;
+}
+
+#berminatCover {
+  /*  background: rgb(26, 105, 184);*/
+  margin-top: 80px;
+  background-size: cover;
+  padding: 50px 0;
+  border-radius: 25px;
+  background: linear-gradient(rgba(26, 105, 184, 0.9), rgba(167, 231, 24, 0.9))
+    /*url(../img/asset/bgcarikami.jpg)*/
+    fixed center center;
+}
+
+/* Struktur Section
+--------------------------------*/
+#struktur {
+  background: #fff;
+  padding: 80px 0 60px 0;
+}
+
+#struktur .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#struktur .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+  width: 260px;
+  display: block;
+}
+
+#struktur .member .pic img {
+  max-width: 100%;
+}
+
+#struktur .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#struktur .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#struktur .member .social {
+  margin-top: 15px;
+}
+
+#struktur .member .social a {
+  color: #b3b3b3;
+}
+
+#struktur .member .social a:hover {
+  color: #2dc997;
+}
+
+#struktur .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+/* Cari Kami Section
+--------------------------------*/
+#mapouter {
+  float: right;
+}
+
+#carikami {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/asset/bgcarikami.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#carikami h3 {
+  color: white !important;
+}
+
+#carikami p {
+  color: white !important;
+}
+
+#carikami #google-map {
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+#carikami .info {
+  color: #333333;
+  display: inline-block;
+}
+
+#carikami .info i {
+  font-size: 32px;
+  color: #2dc997;
+  float: left;
+}
+
+#carikami .info p {
+  padding: 0 0 10px 50px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+#carikami .info .email p {
+  padding-top: 5px;
+}
+
+#carikami .social-links {
+  padding-bottom: 20px;
+  float: right;
+}
+
+#domainesia {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 75px;
+  margin-top: 40px;
+}
+
+#carikami .social-links a {
+  font-size: 14px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#carikami .social-links a:hover {
+  background: #2dc997;
+  color: #fff;
+}
+
+#carikami .form #sendmessage {
+  color: #2dc997;
+  border: 1px solid #2dc997;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#carikami .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#carikami .form #sendmessage.show,
+#carikami .form #errormessage.show,
+#carikami .form .show {
+  display: block;
+}
+
+#carikami .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#carikami .form input,
+#carikami .form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+#carikami .form button[type="submit"] {
+  background: #2dc997;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#carikami .form button[type="submit"]:hover {
+  background: #51d8ad;
+}
